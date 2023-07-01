@@ -1,0 +1,17 @@
+<html xmlns:th="https://www.thymeleaf.org">
+<body>
+
+<h1>Pdf converter</h1>
+
+<h2>Upload image</h2>
+<div>
+    <form method="POST" enctype="multipart/form-data" action="/img2pdf">
+        <table>
+            <tr><td>File to upload:</td><td><input type="file" name="file" /></td></tr>
+            <tr><td></td><td><input type="submit" value="Upload" /></td></tr>
+        </table>
+    </form>
+</div>
+
+</body>
+</html>
